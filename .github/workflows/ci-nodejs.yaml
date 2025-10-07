@@ -7,5 +7,7 @@ on:
       - case-01
 
 jobs:
-  steps:
-    - run: echo "hello world"
+  ci-nodejs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
