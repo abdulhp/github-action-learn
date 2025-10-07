@@ -1,7 +1,10 @@
+name: CI NodeJS
 on:
-  workflow-dispatch:
+  workflow_dispatch:
   
-  push: [main]
+  push:
+    branches:
+      - case-01
 
 jobs:
   steps:
