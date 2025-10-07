@@ -1,0 +1,8 @@
+on:
+  workflow-dispatch:
+  
+  push: [main]
+
+jobs:
+  steps:
+    - run: echo "hello world"
